@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="content" method="upgrade">
+	<name>Content - JExtBOX Equation</name>
+	<author>Galaa</author>
+	<creationDate>2013-04-21</creationDate>
+	<copyright>Copyright (C) 2013-2021 Galaa</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>www.galaa.mn</authorUrl>
+	<version>2.12.3</version>
+	<description><![CDATA[<p>This plugin is a part of the package "JExtBOX Equation".</p><p>Author <a href="http://galaa.mn" target="_blank">Galaa</a>. Distributor <a href="http://jextbox.com" target="_blank">JExtBOX</a> - BOX of Joomla Extensions.</p>]]></description>
+	<files>
+		<filename plugin="jextboxequation">jextboxequation.php</filename>
+		<filename>index.html</filename>
+		<folder>latex2html5</folder>
+	</files>
+	<scriptfile>script.php</scriptfile>
+</extension>

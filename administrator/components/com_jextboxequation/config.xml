@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<fieldset
+		name="configuration"
+		label="COM_JEXTBOXEQUATION_CONFIGURATION_TAB_TITLE"
+		description="COM_JEXTBOXEQUATION_CONFIGURATION_TAB_DESC"
+	>
+
+		<field
+			name="apply" type="list"
+			default="whole-site"
+			label="COM_JEXTBOXEQUATION_CONFIGURATION_LBL_APPLY"
+			description="COM_JEXTBOXEQUATION_CONFIGURATION_DSC_APPLY"
+		>
+			<option value="articles-only">COM_JEXTBOXEQUATION_CONFIGURATION_OPTION_ARTICLES_ONLY</option>
+			<option value="whole-site">COM_JEXTBOXEQUATION_CONFIGURATION_OPTION_WHOLE_SITE</option>
+		</field>
+
+		<field
+			name="source" type="list"
+			default="cdn"
+			label="COM_JEXTBOXEQUATION_CONFIGURATION_LBL_SOURCE"
+			description="COM_JEXTBOXEQUATION_CONFIGURATION_DSC_SOURCE"
+		>
+			<option value="cdn">COM_JEXTBOXEQUATION_CONFIGURATION_OPTION_CDN</option>
+			<option value="local">COM_JEXTBOXEQUATION_CONFIGURATION_OPTION_LOCAL</option>
+		</field>
+
+		<field
+			name="localmathjax" type="text"
+			default=""
+			label="COM_JEXTBOXEQUATION_CONFIGURATION_LBL_LOCALMATHJAX"
+			description="COM_JEXTBOXEQUATION_CONFIGURATION_DSC_LOCALMATHJAX"
+		/>
+
+		<field
+			name="version" type="text"
+			default="2.7.7"
+			label="COM_JEXTBOXEQUATION_CONFIGURATION_LBL_MATHJAXCDNVERSION"
+			description="COM_JEXTBOXEQUATION_CONFIGURATION_DSC_MATHJAXCDNVERSION"
+		/>
+
+		<field
+			name="mathjaxconfig" type="text"
+			default=""
+			filter="raw"
+			label="COM_JEXTBOXEQUATION_CONFIGURATION_LBL_MATHJAXCONFIG"
+			description="COM_JEXTBOXEQUATION_CONFIGURATION_DSC_MATHJAXCONFIG"
+		/>
+
+	</fieldset>
+
+	<fieldset
+		name="payment"
+		label="COM_JEXTBOXEQUATION_PAYMENT_TAB_TITLE"
+		description="COM_JEXTBOXEQUATION_PAYMENT_TAB_DESC"
+	>
+		<field
+			name="paymentid" type="password"
+			default=""
+			label="COM_JEXTBOXEQUATION_PAYMENT_FIELD_LBL_PAYMENT_ID"
+			description="COM_JEXTBOXEQUATION_PAYMENT_FIELD_DSC_PAYMENT_ID"
+		/>
+	</fieldset>
+
+	<fieldset
+		name="permissions"
+		description="JCONFIG_PERMISSIONS_DESC"
+		label="JCONFIG_PERMISSIONS_LABEL"
+	>
+		<field
+			name="rules" type="rules" component="com_jextboxequation"
+			class="inputbox" filter="rules" validate="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			section="component"
+		/>
+	</fieldset>
+
+</config>

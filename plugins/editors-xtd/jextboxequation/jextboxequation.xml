@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="editors-xtd" method="upgrade">
+	<name>Button - JExtBOX Equation</name>
+	<author>Galaa</author>
+	<creationDate>April 24 2016</creationDate>
+	<copyright>Copyright (C) 2016-20121 Galaa. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorUrl>www.galaa.mn</authorUrl>
+	<version>2.12.1</version>
+	<description><![CDATA[<p>This plugin is a part of the package "JExtBOX Equation".</p><p>Author <a href="http://galaa.mn" target="_blank">Galaa</a> Publisher <a href="http://jextbox.com" target="_blank">JExtBOX.com - BOX of Joomla Extensions</a></p>]]></description>
+	<files>
+		<filename plugin="jextboxequation">jextboxequation.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_editors-xtd_jextboxequation.ini</language>
+		<language tag="en-GB">en-GB.plg_editors-xtd_jextboxequation.sys.ini</language>
+	</languages>
+</extension>

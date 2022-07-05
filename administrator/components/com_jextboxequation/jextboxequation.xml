@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.5" method="upgrade">
+    <name>JExtBOX Equation</name>
+    <creationDate>24 April 2016</creationDate>
+    <copyright>Copyright (C) 2016-2021 Galaa. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <author>Galaa</author>
+    <authorUrl>www.galaa.mn</authorUrl>
+    <version>2.12.4</version>
+    <description><![CDATA[<p>This component is a part of the package "JExtBOX Equation".</p><p>Author <a href="http://galaa.mn" target="_blank">Galaa</a> Publisher <a href="http://jextbox.com" target="_blank">JExtBOX.com - BOX of Joomla Extensions</a></p>]]></description>
+
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>jextboxequation.php</filename>
+        <filename>controller.php</filename>
+        <folder>language</folder>
+        <folder>views</folder>
+        <folder>models</folder>
+    </files>
+
+    <administration>
+        <submenu>
+            
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>jextboxequation.php</filename>
+            <folder>language</folder>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+    </administration>
+    
+</extension>

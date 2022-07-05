@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+		<field name="type" type="list"
+			label="COM_JEXTBOXEQUATION_FORM_LBL_TYPE"
+			description="COM_JEXTBOXEQUATION_FORM_DSC_TYPE"
+			default="equation"
+			filter="string"
+			multiple="false"
+		>
+			<option value="equation">COM_JEXTBOXEQUATION_FORM_OPTION_EQUATION</option>
+			<option value="pspicture">COM_JEXTBOXEQUATION_FORM_OPTION_PSPICTURE</option>
+		</field>
+
+		<field name="template" type="list"
+			label="COM_JEXTBOXEQUATION_FORM_LBL_TEMPLATE"
+			description="COM_JEXTBOXEQUATION_FORM_DSC_TEMPLATE"
+			default=""
+			filter="string"
+			multiple="false"
+		>
+			<option value="0">COM_JEXTBOXEQUATION_FORM_OPTION_SELECT_TO_INSERT</option>
+			<option value="\frac{num}{den}">\frac{num}{den}</option>
+			<option value="\int_{min}^{max}">\int_{min}^{max}</option>
+			<option value="\lim\limits_{min}">\lim\limits_{min}</option>
+			<option value="\sum_{min}^{max}">\sum_{min}^{max}</option>
+			<option value="\prod_{min}^{max}">\prod_{min}^{max}</option>
+			<option value="\sqrt[root]{arg}">\sqrt[root]{arg}</option>
+			<option value="\overline{text}">\overline{text}</option>
+			<option value="\underbrace{text}">\underbrace{text}</option>
+			<option value="\hat{a}">\hat{a}</option>
+			<option value="\vec{a}">\vec{a}</option>
+			<option value="\stackrel{above}{under}">\stackrel{above}{under}</option>
+			<option value="\left(\right)">\left(\right)</option>
+			<option value="\left[\right]">\left[\right]</option>
+			<option value="\left\{\right\}">\left\{\right\}</option>
+			<option value="\operatorname{name}">\operatorname{name}</option>
+			<option value="\mbox{text}">\mbox{text}</option>
+			<option value="\displaystyle">\displaystyle</option>
+			<option value="\limits">\limits</option>
+			<option value="\rightarrow">\rightarrow</option>
+			<option value="\Rightarrow">\Rightarrow</option>
+			<option value="\approx">\approx</option>
+			<option value="\sim">\sim</option>
+			<option value="\cdot">\cdot</option>
+			<option value="\cdots">\cdots</option>
+			<option value="\ldots">\ldots</option>
+			<option value="\frac{\partial f(x)}{\partial x}">\frac{\partial f(x)}{\partial x}</option>
+		</field>
+
+		<field name="equation" type="textarea"
+			label="COM_JEXTBOXEQUATION_FORM_LBL_EQUATION"
+			description="COM_JEXTBOXEQUATION_FORM_DSC_EQUATION"
+			rows="5"
+			filter="string"
+		/>
+
+		<field name="preview" type="textarea"
+			label="COM_JEXTBOXEQUATION_FORM_LBL_PREVIEW"
+			description="COM_JEXTBOXEQUATION_FORM_DSC_PREVIEW"
+			rows="5"
+			filter="string"
+		/>
+
+		<field name="pspicture" type="textarea"
+			label="COM_JEXTBOXEQUATION_FORM_LBL_PSPICTURE"
+			description="COM_JEXTBOXEQUATION_FORM_DSC_PSPICTURE"
+			rows="10"
+			filter="string"
+		/>
+
+	</fieldset>
+</form>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="package" method="upgrade">
+	<name>JExtBOX Equation</name>
+	<packagename>jextboxequation</packagename>
+	<version>2.12.4</version>
+	<description></description>
+	<creationDate>21 April 2013</creationDate>
+	<copyright>Copyright (C) 2013-2021 Galaa. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<author>Galaa</author>
+	<authorUrl>www.galaa.mn</authorUrl>
+	<packager>Galaa</packager>
+	<packagerurl>www.jextbox.com</packagerurl>
+	<files>
+		<file id="com_jextboxequation" type="component">com_jextboxequation.zip</file>
+		<file id="jextboxequation" type="plugin" group="editors-xtd">plg_editors-xtd_jextboxequation.zip</file>
+		<file id="jextboxequation" type="plugin" group="content">plg_content_jextboxequation.zip</file>
+		<file id="jextboxequation" type="plugin" group="system">plg_system_jextboxequation.zip</file>
+		<file id="jextboxequation" type="plugin" group="installer">plg_installer_jextboxequation.zip</file>
+	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="JExtBOX Equation - Updates">http://jextbox.com/update/jextboxequation.xml</server>
+	</updateservers>
+</extension>
