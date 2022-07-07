@@ -1,23 +1,19 @@
-<?php die("Access Denied"); ?>#x#a:3:{s:4:"body";s:10131:"
+<?php die("Access Denied"); ?>#x#a:3:{s:4:"body";s:11377:"
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr"
-	  class='com_sppagebuilder view-page itemid-115 home sp-preloader j39 mm-hover '>
+	  class='com_users view-reset itemid-115 j39 mm-hover '>
 
 <head>
-	<base href="http://10.12.2.10/" />
+	<base href="http://10.12.2.10/index.php/component/users/" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="generator" content="Joomla! - Open Source Content Management" />
-	<title>Blooms Academy - CBT Platform</title>
+	<title>BLOOMS CBT </title>
 	<link href="/t3-assets/css/css-7090e-83965.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="/t3-assets/css/css-b04c5-96341.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="/t3-assets/css/css-dd4e6-96341.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-e1edc-39234.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-046c4-89717.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-87e82-78109.css" rel="stylesheet" type="text/css" media="all" />
-	<style type="text/css">
-
-	</style>
-	<script src="/t3-assets/js/js-5ff0d-83985.js" type="text/javascript"></script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"980b38be80eab2a460130aeed74def0c","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"}}</script>
+	<script src="/t3-assets/js/js-7cf73-83985.js" type="text/javascript"></script>
 	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
 	<script src="/t3-assets/js/js-a1a05-83985.js" type="text/javascript"></script>
 	<script src="/templates/purity_iii/js/script.js" type="text/javascript"></script>
@@ -25,17 +21,11 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML" type="text/javascript" async="async"></script>
 	<script src="/t3-assets/js/js-b04ca-78109.js" type="text/javascript"></script>
 	<script type="text/javascript">
-if (typeof jfbcJQuery == "undefined") jfbcJQuery = jQuery;document.addEventListener("DOMContentLoaded",function(){LaTeX2HTML5.init();});document.addEventListener("DOMSubtreeModified", function (ev) { MathJax.Hub.Queue(["Typeset",MathJax.Hub]); }, false);
+jQuery(function($){ initPopovers(); $("body").on("subform-row-add", initPopovers); function initPopovers (event, container) { $(container || document).find(".hasPopover").popover({"html": true,"trigger": "hover focus","container": "body"});} });if (typeof jfbcJQuery == "undefined") jfbcJQuery = jQuery;document.addEventListener("DOMContentLoaded",function(){LaTeX2HTML5.init();});document.addEventListener("DOMSubtreeModified", function (ev) { MathJax.Hub.Queue(["Typeset",MathJax.Hub]); }, false);
 	</script>
 	<script type="text/x-mathjax-config">
 MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu: false, messageStyle: "none" });
 	</script>
-	<meta property="og:title" content="Blooms Academy - CBT Platform" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://10.12.2.10/" />
-	<meta property="og:site_name" content="BLOOMS CBT " />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="BLOOMS CBT " />
 
 	
 <!-- META FOR IOS & HANDHELD -->
@@ -154,12 +144,32 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 						<div id="system-message-container">
 	</div>
 
-						
-<div id="sp-page-builder" class="sp-page-builder sp-preloader page-1">
-
+						<div class="reset">
 	
-	<div class="page-content">
-							</div>
+	<form id="user-registration" action="/index.php/component/users/?task=reset.request&amp;Itemid=115" method="post" class="form-validate form-horizontal">
+
+		
+		<fieldset>
+									<p>Please enter the email address for your account. A verification code will be sent to you. Once you have received the verification code, you will be able to choose a new password for your account.</p>
+								
+<div class="control-group">
+			<div class="control-label">
+			<label id="jform_email-lbl" for="jform_email" class="hasPopover required" title="Email Address" data-content="Please enter the email address associated with your User account.&lt;br /&gt;A verification code will be sent to you. Once you have received the verification code, you will be able to choose a new password for your account.">
+	Email Address<span class="star">&#160;*</span></label>
+					</div>
+		<div class="controls">
+		<input type="text" name="jform[email]" id="jform_email"  value="" class="validate-username required" size="30"       required aria-required="true"      />
+	</div>
+</div>
+
+		</fieldset>
+		
+		<div class="control-group">
+			<div class="controls">
+				<button type="submit" class="btn btn-primary validate">Submit</button>
+				<input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />			</div>
+		</div>
+	</form>
 </div>
 
 		</div>
@@ -182,7 +192,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
     <div class="row-fluid">
         
     <div class="sclogin-joomla-login vertical span12">
-                <form action="/index.php" method="post" id="sclogin-form95">
+                <form action="/index.php/component/users/?Itemid=115" method="post" id="sclogin-form95">
             <fieldset class="input-block-level userdata">
                 <div class="control-group form-sclogin-username" id="form-sclogin-username-95">
                     <div class="controls input-block-level">
@@ -206,7 +216,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
                                         <input id="sclogin-remember-95" type="hidden" name="remember" class="inputbox sclogin-remember" value="yes" title="Remember Me" />
                     
 
-                <input type="hidden" name="option" value="com_users"/><input type="hidden" name="task" value="user.login"/><input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/><input type="hidden" name="mod_id" value="95"/><input type="hidden" name="64248b70a6bdcab9034bb209d4e9a2c8" value="1" />            </fieldset>
+                <input type="hidden" name="option" value="com_users"/><input type="hidden" name="task" value="user.login"/><input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/><input type="hidden" name="mod_id" value="95"/><input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />            </fieldset>
         </form>
     </div>
         </div>
@@ -275,4 +285,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 15:32:44 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:7:{i:0;a:2:{s:4:"name";s:15:"Referrer-Policy";s:5:"value";s:11:"no-referrer";}i:1;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:2;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:3;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:4;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 12:08:46 GMT";}i:5;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:6;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}

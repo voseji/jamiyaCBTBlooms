@@ -1363,3 +1363,33 @@
 2022-07-04T08:48:09+00:00	INFO 10.12.0.28	joomlafailure	Username and password do not match or you do not have an account yet.
 2022-07-04T15:19:43+00:00	INFO 10.12.0.16	joomlafailure	Empty password not allowed.
 2022-07-05T07:53:57+00:00	INFO 10.12.0.13	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-05T10:40:19+00:00	INFO 10.12.0.88	joomlafailure	Username and password do not match or you do not have an account yet.
+2022-07-05T11:25:52+00:00	INFO 10.12.0.149	joomlafailure	Username and password do not match or you do not have an account yet.
+2022-07-05T11:26:13+00:00	INFO 10.12.0.149	joomlafailure	Username and password do not match or you do not have an account yet.
+2022-07-05T11:26:27+00:00	INFO 10.12.0.149	joomlafailure	Username and password do not match or you do not have an account yet.
+2022-07-06T10:26:24+00:00	INFO 10.12.0.70	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-06T10:26:48+00:00	INFO 10.12.0.70	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-06T10:27:05+00:00	INFO 10.12.0.70	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-06T10:27:17+00:00	INFO 10.12.0.70	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-06T10:27:49+00:00	INFO 10.12.0.70	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-06T10:33:08+00:00	INFO 10.12.0.70	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-06T10:33:23+00:00	INFO 10.12.0.70	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:49:24+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:49:45+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:50:05+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:51:46+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:52:07+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:55:00+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:55:49+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:56:19+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T11:57:21+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T12:01:01+00:00	INFO 10.12.0.129	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T12:01:37+00:00	INFO 10.12.0.129	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T12:02:18+00:00	INFO 10.12.0.129	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T12:04:50+00:00	INFO 127.0.0.1	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T12:05:35+00:00	INFO 10.12.0.25	joomlafailure	Empty password not allowed.
+2022-07-07T12:06:48+00:00	INFO 10.12.0.25	joomlafailure	Username and password do not match or you do not have an account yet.
+2022-07-07T12:07:10+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T12:07:33+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T12:07:55+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied
+2022-07-07T12:09:31+00:00	INFO 10.12.0.25	joomlafailure	Incorrect Candidate Registration Number supplied

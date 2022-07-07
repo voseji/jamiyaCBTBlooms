@@ -11,7 +11,7 @@
 	<title>Staff Login Frontend</title>
 	<link href="/t3-assets/css/css-7090e-83965.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-9803d-78109.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"56cc150eca52da3e6c7324aad3271d7a","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"}}</script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"d4e93958c0db5d6af578e458682c8072","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"}}</script>
 	<script src="/t3-assets/js/js-4b453-83985.js" type="text/javascript"></script>
 	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
 	<script src="/t3-assets/js/js-a1a05-83985.js" type="text/javascript"></script>
@@ -216,7 +216,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 			<input type="hidden" name="option" value="com_users"/>
 			<input type="hidden" name="task" value="user.login"/>
 			<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/>
-			<input type="hidden" name="56cc150eca52da3e6c7324aad3271d7a" value="1" />		</fieldset>
+			<input type="hidden" name="d4e93958c0db5d6af578e458682c8072" value="1" />		</fieldset>
 			</form>
 </p>	</section>
   
@@ -292,4 +292,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Mon, 04 Jul 2022 08:52:48 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Wed, 06 Jul 2022 10:26:04 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}

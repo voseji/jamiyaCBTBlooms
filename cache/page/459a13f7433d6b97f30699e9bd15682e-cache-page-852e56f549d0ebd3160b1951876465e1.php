@@ -4,7 +4,7 @@
 	  class='com_sppagebuilder view-page itemid-115 home sp-preloader j39 mm-hover '>
 
 <head>
-	<base href="http://10.12.2.10/" />
+	<base href="http://10.12.0.85/" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="generator" content="Joomla! - Open Source Content Management" />
 	<title>Blooms Academy - CBT Platform</title>
@@ -32,7 +32,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 	</script>
 	<meta property="og:title" content="Blooms Academy - CBT Platform" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://10.12.2.10/" />
+	<meta property="og:url" content="http://10.12.0.85/" />
 	<meta property="og:site_name" content="BLOOMS CBT " />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="BLOOMS CBT " />
@@ -206,7 +206,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
                                         <input id="sclogin-remember-95" type="hidden" name="remember" class="inputbox sclogin-remember" value="yes" title="Remember Me" />
                     
 
-                <input type="hidden" name="option" value="com_users"/><input type="hidden" name="task" value="user.login"/><input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/><input type="hidden" name="mod_id" value="95"/><input type="hidden" name="64248b70a6bdcab9034bb209d4e9a2c8" value="1" />            </fieldset>
+                <input type="hidden" name="option" value="com_users"/><input type="hidden" name="task" value="user.login"/><input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/><input type="hidden" name="mod_id" value="95"/><input type="hidden" name="c83a1ada85b79346d40769a66b3598a7" value="1" />            </fieldset>
         </form>
     </div>
         </div>
@@ -275,4 +275,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 15:32:44 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Wed, 06 Jul 2022 14:34:59 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}

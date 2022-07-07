@@ -1,28 +1,33 @@
-<?php die("Access Denied"); ?>#x#a:3:{s:4:"body";s:9154:"
+<?php die("Access Denied"); ?>#x#a:3:{s:4:"body";s:9771:"
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr"
-	  class='com_content view-article itemid-118 j39 mm-hover '>
+	  class='com_ariquiz view-category itemid-101 j39 mm-hover '>
 
 <head>
-	<base href="http://10.12.2.10/index.php/staff-login-frontend" />
+	<base href="http://10.12.2.10/" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Super User" />
 	<meta name="generator" content="Joomla! - Open Source Content Management" />
-	<title>Staff Login Frontend</title>
+	<title>Blooms Academy - CBT Platform</title>
 	<link href="/t3-assets/css/css-7090e-83965.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/t3-assets/css/css-b3faf-96342.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-9803d-78109.css" rel="stylesheet" type="text/css" media="all" />
 	<script type="application/json" class="joomla-script-options new">{"csrf.token":"980b38be80eab2a460130aeed74def0c","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"}}</script>
-	<script src="/t3-assets/js/js-4b453-83985.js" type="text/javascript"></script>
+	<script src="/t3-assets/js/js-820f7-70052.js" type="text/javascript"></script>
+	<script src="/components/com_ariquiz/assets/js/yui.combo.js?v=3.9.19" type="text/javascript"></script>
+	<script src="/components/com_ariquiz/assets/js/ari.all.js?v=3.9.19" type="text/javascript"></script>
+	<script src="/components/com_ariquiz/assets/js/templates.js?v=3.9.19" type="text/javascript"></script>
+	<script src="/components/com_ariquiz/assets/js/ari.quiz.js?v=3.9.19" type="text/javascript"></script>
+	<script src="/components/com_ariquiz/assets/js/ari.pageController.js?v=3.9.19" type="text/javascript"></script>
+	<script src="/index.php?option=com_ariquiz&view=jsmessages&task=getMessages&v=3.9.19" type="text/javascript"></script>
+	<script src="/t3-assets/js/js-71aac-83985.js" type="text/javascript"></script>
 	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
 	<script src="/t3-assets/js/js-a1a05-83985.js" type="text/javascript"></script>
 	<script src="/templates/purity_iii/js/script.js" type="text/javascript"></script>
-	<script src="/t3-assets/js/js-6657d-83985.js" type="text/javascript"></script>
+	<script src="/t3-assets/js/js-79376-83985.js" type="text/javascript"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML" type="text/javascript" async="async"></script>
 	<script src="/t3-assets/js/js-b04ca-78109.js" type="text/javascript"></script>
 	<script type="text/javascript">
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});document.addEventListener("DOMContentLoaded",function(){LaTeX2HTML5.init();});document.addEventListener("DOMSubtreeModified", function (ev) { MathJax.Hub.Queue(["Typeset",MathJax.Hub]); }, false);
+;YAHOO.util.Event.onDOMReady(function(){ YAHOO.util.Dom.addClass(document.body, "yui-skin-sam"); });initPageController("", "quizForm", "com_ariquiz", false, false);jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });document.addEventListener("DOMContentLoaded",function(){LaTeX2HTML5.init();});document.addEventListener("DOMSubtreeModified", function (ev) { MathJax.Hub.Queue(["Typeset",MathJax.Hub]); }, false);
 	</script>
 	<script type="text/x-mathjax-config">
 MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu: false, messageStyle: "none" });
@@ -112,9 +117,9 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 		<nav class="t3-navbar navbar-collapse collapse" style="float: right">
 					<ul class="nav navbar-nav">
 			<li class="item-115">				<a href="/index.php" >Home</a>
-				</li><li class="item-101">				<a href="/index.php/home" >Computer-Based Tests</a>
+				</li><li class="item-101 current active">				<a href="/index.php/home" >Computer-Based Tests</a>
 				</li><li class="item-117">				<a href="/../administrator" >Staff Login</a>
-				</li><li class="item-118 current active">				<a href="/index.php/staff-login-frontend" >Staff Login Frontend</a>
+				</li><li class="item-118">				<a href="/index.php/staff-login-frontend" >Staff Login Frontend</a>
 				</li>		</ul>
 	
 		</nav>
@@ -136,45 +141,26 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 	
-
 <div id="t3-mainbody" class="container t3-mainbody">
 	<div class="row">
 
 		<!-- MAIN CONTENT -->
-		<div id="t3-content" class="t3-content col-xs-12">
+		<div id="t3-content" class="t3-content col-xs-12 col-sm-8  col-md-9">
 						<div id="system-message-container">
 	</div>
 
 						
+<h1 class="aq-category-title aq-header">2ND TERM END OF TERM EXAMINATION 2021/22</h1>
+<div class="aq-category-description">
+</div>
+<br/>
+	No CBTs
+		</div>
+		<!-- //MAIN CONTENT -->
 
-<div class="item-page clearfix">
-
-
-<!-- Article -->
-<article>
-	<meta itemprop="inLanguage" content="en-GB" />
-	<meta itemprop="url" content="/index.php/staff-login-frontend" />
-
-      
-<header class="article-header clearfix">
-	<h1 class="article-title" itemprop="headline">
-					Staff Login Frontend			<meta itemprop="url" content="http://10.12.2.10/index.php/staff-login-frontend" />
-			</h1>
-
-			</header>
-    
-    
-  <!-- Aside -->
-    <!-- //Aside -->
-
-  
-  
-  
-	
-  
-	
-	<section class="article-content clearfix">
-		<p>	<form action="/index.php/staff-login-frontend" method="post" id="login-form">
+		<!-- SIDEBAR RIGHT -->
+		<div class="t3-sidebar t3-sidebar-right col-xs-12 col-sm-4  col-md-3 ">
+			<div class="t3-module module " id="Mod92"><div class="module-inner"><div class="module-ct">	<form action="/index.php/home" method="post" id="login-form">
 				<fieldset class="userdata">
 			<div id="form-login-username" class="form-group">
 									<div class="input-group">
@@ -218,25 +204,13 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 			<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/>
 			<input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />		</fieldset>
 			</form>
-</p>	</section>
-  
-  <!-- footer -->
-    <!-- //footer -->
-
-	
-	
-	</article>
-<!-- //Article -->
-
-
-</div>
-
-
+</div></div></div>
 		</div>
-		<!-- //MAIN CONTENT -->
+		<!-- //SIDEBAR RIGHT -->
 
 	</div>
 </div> 
+
 
 
   
@@ -292,4 +266,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 11:55:27 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 11:56:31 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}

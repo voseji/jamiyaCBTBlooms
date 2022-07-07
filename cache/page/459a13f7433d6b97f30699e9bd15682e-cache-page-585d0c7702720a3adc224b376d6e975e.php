@@ -1,18 +1,17 @@
-<?php die("Access Denied"); ?>#x#a:3:{s:4:"body";s:9154:"
+<?php die("Access Denied"); ?>#x#a:3:{s:4:"body";s:7820:"
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr"
-	  class='com_content view-article itemid-118 j39 mm-hover '>
+	  class='com_users view-remind j39 mm-hover '>
 
 <head>
-	<base href="http://10.12.2.10/index.php/staff-login-frontend" />
+	<base href="http://10.12.2.10/index.php" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Super User" />
 	<meta name="generator" content="Joomla! - Open Source Content Management" />
-	<title>Staff Login Frontend</title>
+	<title>BLOOMS CBT </title>
 	<link href="/t3-assets/css/css-7090e-83965.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-9803d-78109.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"980b38be80eab2a460130aeed74def0c","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"}}</script>
-	<script src="/t3-assets/js/js-4b453-83985.js" type="text/javascript"></script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"980b38be80eab2a460130aeed74def0c","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"}}</script>
+	<script src="/t3-assets/js/js-7cf73-83985.js" type="text/javascript"></script>
 	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
 	<script src="/t3-assets/js/js-a1a05-83985.js" type="text/javascript"></script>
 	<script src="/templates/purity_iii/js/script.js" type="text/javascript"></script>
@@ -20,9 +19,7 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML" type="text/javascript" async="async"></script>
 	<script src="/t3-assets/js/js-b04ca-78109.js" type="text/javascript"></script>
 	<script type="text/javascript">
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});document.addEventListener("DOMContentLoaded",function(){LaTeX2HTML5.init();});document.addEventListener("DOMSubtreeModified", function (ev) { MathJax.Hub.Queue(["Typeset",MathJax.Hub]); }, false);
+jQuery(function($){ initPopovers(); $("body").on("subform-row-add", initPopovers); function initPopovers (event, container) { $(container || document).find(".hasPopover").popover({"html": true,"trigger": "hover focus","container": "body"});} });document.addEventListener("DOMContentLoaded",function(){LaTeX2HTML5.init();});document.addEventListener("DOMSubtreeModified", function (ev) { MathJax.Hub.Queue(["Typeset",MathJax.Hub]); }, false);
 	</script>
 	<script type="text/x-mathjax-config">
 MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu: false, messageStyle: "none" });
@@ -111,10 +108,10 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 		
 		<nav class="t3-navbar navbar-collapse collapse" style="float: right">
 					<ul class="nav navbar-nav">
-			<li class="item-115">				<a href="/index.php" >Home</a>
+			<li class="item-115 current active">				<a href="/index.php" >Home</a>
 				</li><li class="item-101">				<a href="/index.php/home" >Computer-Based Tests</a>
 				</li><li class="item-117">				<a href="/../administrator" >Staff Login</a>
-				</li><li class="item-118 current active">				<a href="/index.php/staff-login-frontend" >Staff Login Frontend</a>
+				</li><li class="item-118">				<a href="/index.php/staff-login-frontend" >Staff Login Frontend</a>
 				</li>		</ul>
 	
 		</nav>
@@ -145,92 +142,31 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 						<div id="system-message-container">
 	</div>
 
-						
-
-<div class="item-page clearfix">
-
-
-<!-- Article -->
-<article>
-	<meta itemprop="inLanguage" content="en-GB" />
-	<meta itemprop="url" content="/index.php/staff-login-frontend" />
-
-      
-<header class="article-header clearfix">
-	<h1 class="article-title" itemprop="headline">
-					Staff Login Frontend			<meta itemprop="url" content="http://10.12.2.10/index.php/staff-login-frontend" />
-			</h1>
-
-			</header>
-    
-    
-  <!-- Aside -->
-    <!-- //Aside -->
-
-  
-  
-  
+						<div class="remind ">
 	
-  
-	
-	<section class="article-content clearfix">
-		<p>	<form action="/index.php/staff-login-frontend" method="post" id="login-form">
-				<fieldset class="userdata">
-			<div id="form-login-username" class="form-group">
-									<div class="input-group">
-						<span class="input-group-addon">
-							<span class="fa fa-user tip" title="Username"></span>
-						</span>
-						<input id="modlgn-username" type="text" name="username" class="input form-control" tabindex="0" size="18"
-							   placeholder="Username" aria-label="username" />
+	<form id="user-registration" action="/index.php/component/users/?task=remind.remind&amp;Itemid=115" method="post" class="form-validate form-horizontal">
+
+				<fieldset>
+									<p>Please enter the email address associated with your User account. Your username will be emailed to the email address on file.</p>
+								
+<div class="control-group">
+			<div class="control-label">
+			<label id="jform_email-lbl" for="jform_email" class="hasPopover required" title="Email Address" data-content="Please enter the email address associated with your User account.&lt;br /&gt;Your username will be emailed to the email address on file.">
+	Email Address<span class="star">&#160;*</span></label>
 					</div>
-							</div>
-			<div id="form-login-password" class="form-group">
-								<div class="input-group">
-						<span class="input-group-addon">
-							<span class="fa fa-lock tip" title="Password"></span>
-						</span>
-					<input id="modlgn-passwd" type="password" name="password" class="input form-control" tabindex="0"
-						   size="18" placeholder="Password" aria-label="password" />
-				</div>
-						</div>
-					
-							<div id="form-login-remember" class="form-group">
-					<input id="modlgn-remember" type="checkbox"
-							name="remember" class="input"
-							value="yes" aria-label="remember"/> Remember Me				</div>
-						<div class="control-group">
-				<input type="submit" name="Submit" class="btn btn-primary" value="Log in"/>
-			</div>
-
-						<ul class="unstyled">
-								<li>
-					<a href="/index.php/component/users/?view=remind&amp;Itemid=115">
-						Forgot your username?</a>
-				</li>
-				<li>
-					<a href="/index.php/component/users/?view=reset&amp;Itemid=115">Forgot your password?</a>
-				</li>
-			</ul>
-
-			<input type="hidden" name="option" value="com_users"/>
-			<input type="hidden" name="task" value="user.login"/>
-			<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/>
-			<input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />		</fieldset>
-			</form>
-</p>	</section>
-  
-  <!-- footer -->
-    <!-- //footer -->
-
-	
-	
-	</article>
-<!-- //Article -->
-
-
+		<div class="controls">
+		<input type="email" name="jform[email]" class="validate-email required" id="jform_email" value=""
+ size="30"    autocomplete="email"    required aria-required="true"  />	</div>
 </div>
 
+		</fieldset>
+				<div class="control-group">
+			<div class="controls">
+				<button type="submit" class="btn btn-primary validate">Submit</button>
+				<input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />			</div>
+		</div>
+	</form>
+</div>
 
 		</div>
 		<!-- //MAIN CONTENT -->
@@ -292,4 +228,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 11:55:27 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:7:{i:0;a:2:{s:4:"name";s:15:"Referrer-Policy";s:5:"value";s:11:"no-referrer";}i:1;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:2;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:3;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:4;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 11:55:06 GMT";}i:5;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:6;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}

@@ -20,3 +20,10 @@
 2022-07-05T08:52:19+00:00	INFO 10.12.0.30	upload	
 2022-07-05T08:58:58+00:00	INFO 10.12.0.30	upload	
 2022-07-05T09:04:03+00:00	INFO 10.12.0.30	upload	
+2022-07-05T09:15:46+00:00	INFO 10.12.0.30	upload	
+2022-07-05T09:16:16+00:00	INFO 10.12.0.30	upload	File exists: /var/www/cbt/images/19_y4.png by user_id 3011
+2022-07-05T09:27:50+00:00	INFO 10.12.0.30	upload	
+2022-07-05T09:30:14+00:00	INFO 10.12.0.30	upload	
+2022-07-05T09:33:30+00:00	INFO 10.12.0.30	upload	
+2022-07-05T09:37:42+00:00	INFO 10.12.0.30	upload	
+2022-07-05T11:19:27+00:00	INFO 10.12.0.30	upload	File exists: /var/www/cbt/images/pickaxe_20.png by user_id 3011
