@@ -10,7 +10,7 @@
 	<title>BLOOMS CBT </title>
 	<link href="/t3-assets/css/css-7090e-83965.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-9803d-78109.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"980b38be80eab2a460130aeed74def0c","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"}}</script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"de9bc1a224239146f6d3aefff01842dc","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"}}</script>
 	<script src="/t3-assets/js/js-7cf73-83985.js" type="text/javascript"></script>
 	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
 	<script src="/t3-assets/js/js-a1a05-83985.js" type="text/javascript"></script>
@@ -163,7 +163,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 				<div class="control-group">
 			<div class="controls">
 				<button type="submit" class="btn btn-primary validate">Submit</button>
-				<input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />			</div>
+				<input type="hidden" name="de9bc1a224239146f6d3aefff01842dc" value="1" />			</div>
 		</div>
 	</form>
 </div>
@@ -228,4 +228,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:7:{i:0;a:2:{s:4:"name";s:15:"Referrer-Policy";s:5:"value";s:11:"no-referrer";}i:1;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:2;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:3;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:4;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 11:55:06 GMT";}i:5;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:6;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:7:{i:0;a:2:{s:4:"name";s:15:"Referrer-Policy";s:5:"value";s:11:"no-referrer";}i:1;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:2;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:3;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:4;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Fri, 22 Jul 2022 15:37:06 GMT";}i:5;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:6;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}

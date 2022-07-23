@@ -205,7 +205,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
                                         <input id="sclogin-remember-95" type="hidden" name="remember" class="inputbox sclogin-remember" value="yes" title="Remember Me" />
                     
 
-                <input type="hidden" name="option" value="com_users"/><input type="hidden" name="task" value="user.login"/><input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/><input type="hidden" name="mod_id" value="95"/><input type="hidden" name="3fc1398dd8f7dfbb652ee7f523421f7f" value="1" />            </fieldset>
+                <input type="hidden" name="option" value="com_users"/><input type="hidden" name="task" value="user.login"/><input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/><input type="hidden" name="mod_id" value="95"/><input type="hidden" name="0e5876c80bb803367043c44961b4e5ab" value="1" />            </fieldset>
         </form>
     </div>
         </div>
@@ -274,4 +274,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Tue, 05 Apr 2022 10:50:11 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Fri, 22 Jul 2022 10:50:13 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}

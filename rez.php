@@ -22,7 +22,7 @@
                 $i=1;
                 
                 $a=$_POST['QuizId'];
-                $sql="SELECT DISTINCT jamiya.zcmrq_ariquizstatistics.StatisticsInfoId, zcmrq_ariquizstatisticsinfo.UserId, zcmrq_users.name, zcmrq_users.username, zcmrq_ariquiz.QuizName, zcmrq_ariquizstatisticsinfo.MaxScore, SUM(jamiya.zcmrq_ariquizstatistics.Score) as Score2 FROM jamiya.zcmrq_ariquizstatisticsinfo
+                $sql="SELECT DISTINCT jamiya.zcmrq_ariquizstatistics.StatisticsInfoId, zcmrq_ariquizstatisticsinfo.UserId, zcmrq_users.name, zcmrq_users.username, zcmrq_users.email, zcmrq_ariquiz.QuizName, zcmrq_ariquizstatisticsinfo.MaxScore, SUM(jamiya.zcmrq_ariquizstatistics.Score) as Score2, zcmrq_ariquizstatisticsinfo.emailed  FROM jamiya.zcmrq_ariquizstatisticsinfo
                 JOIN jamiya.zcmrq_ariquizstatistics ON jamiya.zcmrq_ariquizstatistics.StatisticsInfoId=jamiya.zcmrq_ariquizstatisticsinfo.StatisticsInfoId
                 JOIN jamiya.zcmrq_users ON jamiya.zcmrq_ariquizstatisticsinfo.UserId=jamiya.zcmrq_users.id
                 JOIN jamiya.zcmrq_ariquiz ON jamiya.zcmrq_ariquizstatisticsinfo.QuizId=jamiya.zcmrq_ariquiz.QuizId
@@ -40,6 +40,8 @@ $sql2 = "SELECT * FROM zcmrq_ariquiz WHERE QuizId='".$a."'";
 $result2=mysqli_query($link,$sql2);
 $row2=mysqli_fetch_assoc($result2);
 $QuizName=$row2["QuizName"];
+$emailed=$row['emailed'];
+
 
 
                     
@@ -59,14 +61,28 @@ $QuizName=$row2["QuizName"];
 									while($row = mysqli_fetch_array($result)){
                                         //include "count_one_sale.php";
                                       
-                                      //if ($row['payment_status']=='1') { $stat2= "<b style='color:green'>PAID</b>";} else if ($row['payment_status']=='0') { $stat2= "<b style='color:red'>UNPAID</b>";}     
-                                     
-										
+                                        $score22=$row['Score2'];
+                                        $sid=$row['StatisticsInfoId'];
+                                     	$fullname=$row['name'];
+                                     	$username=$row['username'];
+									$email=$row['email'];
+                                    //$email="vctroseji@gmail.com";
+                                    switch ($emailed) {
+                                        case 0:
+                                          $send="<i style='color:red'>Email Result</i>";
+                                          break;
+                                        case 1:
+                                            $send="<i style='color:green'>Resend Result</i>";
+                                        //   break;
+                                  
+                                      }
 									echo "<tr>";
 									echo "<td>  &nbsp;&nbsp;" .$i++."</td>";
                                     echo "<td>  &nbsp;&nbsp;" .$row['username']."</td>";
                                     echo "<td>  &nbsp;&nbsp;" .$row['name']."</td>";
-                                    echo "<td>  &nbsp;&nbsp;<b>" .$row['Score2']."</b>/".$row['MaxScore']."</td>";
+                                    
+                                    echo "<td>  &nbsp;&nbsp;<b>" .$score22."</b>/".$row['MaxScore']."</td>";
+                                    echo "<td>  &nbsp;&nbsp;<a href='/one_result.php?email=$email&QuizId=$a&s=$score22&sid=$sid&fullname=$fullname&subject=$QuizName&username=$username'>" ."$send</a></td>";
 								    echo "</tr>";
 								}
 		

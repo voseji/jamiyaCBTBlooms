@@ -11,7 +11,7 @@
 	<link href="/t3-assets/css/css-7090e-83965.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-b3faf-96342.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-9803d-78109.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"980b38be80eab2a460130aeed74def0c","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"}}</script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"76fdca3c6c832d6052c0e760e242d636","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"}}</script>
 	<script src="/t3-assets/js/js-820f7-70052.js" type="text/javascript"></script>
 	<script src="/components/com_ariquiz/assets/js/yui.combo.js?v=3.9.19" type="text/javascript"></script>
 	<script src="/components/com_ariquiz/assets/js/ari.all.js?v=3.9.19" type="text/javascript"></script>
@@ -150,7 +150,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 	</div>
 
 						
-<h1 class="aq-category-title aq-header">2ND TERM END OF TERM EXAMINATION 2021/22</h1>
+<h1 class="aq-category-title aq-header">3RD TERM END OF TERM EXAMINATION 2021/22</h1>
 <div class="aq-category-description">
 </div>
 <br/>
@@ -202,7 +202,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 			<input type="hidden" name="option" value="com_users"/>
 			<input type="hidden" name="task" value="user.login"/>
 			<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/>
-			<input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />		</fieldset>
+			<input type="hidden" name="76fdca3c6c832d6052c0e760e242d636" value="1" />		</fieldset>
 			</form>
 </div></div></div>
 		</div>
@@ -266,4 +266,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 11:56:31 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:6:{i:0;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:1;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:2;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:3;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Fri, 22 Jul 2022 12:48:03 GMT";}i:4;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:5;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}

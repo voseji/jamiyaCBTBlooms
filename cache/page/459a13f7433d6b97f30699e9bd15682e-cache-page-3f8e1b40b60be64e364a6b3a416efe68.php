@@ -12,7 +12,7 @@
 	<link href="/t3-assets/css/css-e1edc-39234.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-046c4-89717.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="/t3-assets/css/css-87e82-78109.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"980b38be80eab2a460130aeed74def0c","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"}}</script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"41b5f91701f17cd5a4a908d8f8133bec","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/index.php\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"}}</script>
 	<script src="/t3-assets/js/js-7cf73-83985.js" type="text/javascript"></script>
 	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
 	<script src="/t3-assets/js/js-a1a05-83985.js" type="text/javascript"></script>
@@ -165,7 +165,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 				<div class="control-group">
 			<div class="controls">
 				<button type="submit" class="btn btn-primary validate">Submit</button>
-				<input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />			</div>
+				<input type="hidden" name="41b5f91701f17cd5a4a908d8f8133bec" value="1" />			</div>
 		</div>
 	</form>
 </div>
@@ -214,7 +214,7 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
                                         <input id="sclogin-remember-95" type="hidden" name="remember" class="inputbox sclogin-remember" value="yes" title="Remember Me" />
                     
 
-                <input type="hidden" name="option" value="com_users"/><input type="hidden" name="task" value="user.login"/><input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/><input type="hidden" name="mod_id" value="95"/><input type="hidden" name="980b38be80eab2a460130aeed74def0c" value="1" />            </fieldset>
+                <input type="hidden" name="option" value="com_users"/><input type="hidden" name="task" value="user.login"/><input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE="/><input type="hidden" name="mod_id" value="95"/><input type="hidden" name="41b5f91701f17cd5a4a908d8f8133bec" value="1" />            </fieldset>
         </form>
     </div>
         </div>
@@ -283,4 +283,4 @@ MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} }, showMathMenu
 
 
 </body>
-</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:7:{i:0;a:2:{s:4:"name";s:15:"Referrer-Policy";s:5:"value";s:11:"no-referrer";}i:1;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:2;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:3;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:4;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Thu, 07 Jul 2022 12:08:29 GMT";}i:5;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:6;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
+</html>";s:13:"mime_encoding";s:9:"text/html";s:7:"headers";a:7:{i:0;a:2:{s:4:"name";s:15:"Referrer-Policy";s:5:"value";s:11:"no-referrer";}i:1;a:2:{s:4:"name";s:18:"Permissions-Policy";s:5:"value";s:18:"interest-cohort=()";}i:2;a:2:{s:4:"name";s:12:"Content-Type";s:5:"value";s:24:"text/html; charset=utf-8";}i:3;a:2:{s:4:"name";s:7:"Expires";s:5:"value";s:29:"Wed, 17 Aug 2005 00:00:00 GMT";}i:4;a:2:{s:4:"name";s:13:"Last-Modified";s:5:"value";s:29:"Fri, 22 Jul 2022 08:46:32 GMT";}i:5;a:2:{s:4:"name";s:13:"Cache-Control";s:5:"value";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";}i:6;a:2:{s:4:"name";s:6:"Pragma";s:5:"value";s:8:"no-cache";}}}
